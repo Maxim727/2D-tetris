@@ -1,0 +1,68 @@
+body {
+    padding: 0;
+    overflow: hidden;
+    color: white;
+    background: url("../res/b1.png") no-repeat;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Courier New";
+}
+
+.slidercontainer {
+    width: 100%;
+}
+
+#score {
+    position: absolute;
+    margin-top: 140px;
+    margin-left: 65%;
+}
+
+h1 {
+    position: absolute;
+    color: white;
+    margin-top: 10px;
+    margin-left: 46%;
+}
+
+h4 {
+    position: absolute;
+    color: white;
+    margin-top: 140px;
+    margin-left: 25%;
+    display: inline-block;
+}
+
+.slider {
+    position: absolute;
+    width: 200px;
+    height: 30px;
+    margin-top: 170px;
+    margin-left: 25%;
+}
+
+
+.slider::-webkit-slider-thumb {
+    width: 25px;
+    height: 25px;
+    background: #4CAF50;
+    cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    background: #4CAF50;
+    cursor: pointer;
+}
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    padding: 10px 16px;
+    position: absolute;
+    margin-top: 210px;
+    margin-left: 25%;
+    display: inline-block;
+    cursor: pointer;
+}
